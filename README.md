@@ -1,7 +1,21 @@
 # ["LISTA ZADAŃ"](https://shadoo1.github.io/Lista-zadan-react/)
+## Table of contents:
+- [Info](#info)
+- [Technologies](#technologies)
+- [Available Scripts](#available-scripts)
+
 ## Info
 LISTA ZADAŃ is a simple application to create your own to-do list.
 You can add your tasks, delete them, or mark them as done and then hide.
+
+## Technologies
+- HTML
+- CSS
+- BEM
+- ES6+ features
+
+## Usage
+![](https://github.com/shadoo1/Lista-zadan/blob/main/images/usage2.gif?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -35,3 +49,5 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+Enjoy! 🤗
