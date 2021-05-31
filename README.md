@@ -1,4 +1,4 @@
-# ["LISTA ZADAŃ"](https://shadoo1.github.io/Lista-zadan/)
+# ["LISTA ZADAŃ"](https://shadoo1.github.io/Lista-zadan-react/)
 ## Info
 LISTA ZADAŃ is a simple application to create your own to-do list.
 You can add your tasks, delete them, or mark them as done and then hide.
