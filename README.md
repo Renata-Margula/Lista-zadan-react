@@ -2,6 +2,7 @@
 ## Table of contents:
 - [Info](#info)
 - [Technologies](#technologies)
+- [Usage](#usage)
 - [Available Scripts](#available-scripts)
 
 ## Info
