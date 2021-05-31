@@ -1,0 +1,39 @@
+.section__header {
+    display: grid;
+}
+
+@media(max-width:500px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+    .section__button {
+        display: grid;
+        align-self: center;
+        padding: 5px;
+    }
+}
+
+.section__button {
+    font-size: smaller;
+}
+
+.section__button--header {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: teal;
+    transition: 1s;
+}
+
+.section__button--hidden {
+    display: none;
+}
+
+.section__button.section__button:disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.section__button--header:hover {
+    color: hsl(180, 100%, 35%);
+}
