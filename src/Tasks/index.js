@@ -1,19 +1,23 @@
 import React from "react";
 import "./style.css";
 
-const Tasks = (props) => (
+const Tasks = ({ tasks, hideDone, removeTask }) => (
     <ul className="list">
-        {props.tasks.map(task => (
+        {tasks.map(task => (
             <li
                 key={task.id}
-                className={`list__tasks${task.done && props.hideDone ? " list__item--hidden" : ""}`}>
+                className={`list__tasks${task.done && hideDone ? " list__item--hidden" : ""}`}>
                 <button className="list__button list__button--done">
                     {task.done ? "✓" : ""}
                 </button>
                 <span className={`list__item${task.done ? " list__item--done" : ""}`}>
                     {task.content}
                 </span>
-                <button className="list__button list__button--remove">🗑</button>
+                <button className="list__button list__button--remove"
+                    onClick={() => removeTask(task.id)}
+                >
+                    🗑
+                </button>
             </li>
         ))}
     </ul >
