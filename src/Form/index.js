@@ -17,7 +17,7 @@ const Form = ({ addNewTask }) => {
         autoFocus placeholder="Co jest do zrobienia?"
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
-      <button className="form__button">Dodaj zadanie</button>
+      <button className="form__button" disabled={newTaskContent.trim() === ""}>Dodaj zadanie</button>
     </form>
   );
 };
