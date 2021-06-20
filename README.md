@@ -1,4 +1,4 @@
-# ["LISTA ZADAŃ"](https://shadoo1.github.io/Lista-zadan-react/)
+# ["LISTA ZADAŃ"](https://renata-margula.github.io/Lista-zadan-react/)
 ## Table of contents:
 - [Info](#info)
 - [Technologies](#technologies)
