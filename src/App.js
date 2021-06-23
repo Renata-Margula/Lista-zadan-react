@@ -50,9 +50,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(tasks));
-  },
-    [tasks]
-  );
+  }, [tasks]);
 
   return (
     <Container>
