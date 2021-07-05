@@ -1,18 +1,17 @@
 .section__button {
     display: flex;
-    flex-direction: column;
-}
-
-@media(max-width:500px) {
-    .section__button {
-        flex-flow: row;
-        flex-wrap: wrap;
-        padding: 5px;
-    }
-}
-
-.section__button {
+    float: right;
+    padding: 5px;
     font-size: smaller;
+}
+
+@media (max-width: 767px) {
+    .section__button {
+        display: grid;
+        float: none;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
 }
 
 .section__button--header {
