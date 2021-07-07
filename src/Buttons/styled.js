@@ -1,36 +1,30 @@
-.section__button {
+import styled, { css } from "styled-components";
+
+export const Span = styled.span`
     display: flex;
     float: right;
     padding: 5px;
     font-size: smaller;
-}
-
+         
 @media (max-width: 767px) {
-    .section__button {
         display: grid;
         float: none;
         flex-wrap: wrap;
         margin-top: 5px;
     }
-}
+`;
 
-.section__button--header {
+export const Button = styled.button`
     cursor: pointer;
     border: none;
     background: none;
     color: teal;
     transition: 1s;
-}
-
-.section__button--hidden {
-    display: none;
-}
-
-.section__button.section__button:disabled {
-    color: gray;
-    cursor: not-allowed;
-}
-
-.section__button--header:hover {
-    color: hsl(180, 100%, 35%);
-}
+        &:hover {
+            color: hsl(180, 100%, 35%);
+        }
+        &:disabled {
+            color: gray;
+            cursor: not-allowed;
+        }
+`;
