@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css";
+import { Main } from "./styled";
 
 const Container = (props) => (
-    <main className="container">
+    <Main>
         {props.children}
-    </main>
+    </Main>
 );
 
 export default Container;
