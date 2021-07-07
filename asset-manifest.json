@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Lista-zadan-react/static/css/main.d2bee0fa.chunk.css",
-    "main.js": "/Lista-zadan-react/static/js/main.31ddb2c2.chunk.js",
-    "main.js.map": "/Lista-zadan-react/static/js/main.31ddb2c2.chunk.js.map",
+    "main.js": "/Lista-zadan-react/static/js/main.7a12d58a.chunk.js",
+    "main.js.map": "/Lista-zadan-react/static/js/main.7a12d58a.chunk.js.map",
     "runtime-main.js": "/Lista-zadan-react/static/js/runtime-main.4b8d192a.js",
     "runtime-main.js.map": "/Lista-zadan-react/static/js/runtime-main.4b8d192a.js.map",
     "static/js/2.b4105e82.chunk.js": "/Lista-zadan-react/static/js/2.b4105e82.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4b8d192a.js",
     "static/js/2.b4105e82.chunk.js",
     "static/css/main.d2bee0fa.chunk.css",
-    "static/js/main.31ddb2c2.chunk.js"
+    "static/js/main.7a12d58a.chunk.js"
   ]
 }
